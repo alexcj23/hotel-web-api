@@ -37,7 +37,6 @@ public class QueryOption {
 		this.filter = new StringBuilder();
 		this.page = new Paginacion();
 		this.inferedClass = type;
-		// findTypeArguments(this.getClass());
 		this.params = ((request.getQueryString() != null) ? Arrays.asList(request.getQueryString().split("&"))
 				: new ArrayList<String>());
 	}
