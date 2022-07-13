@@ -33,6 +33,7 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( 1 == 1 );
+    	String sample = "This string is not empty.";
+        assertTrue( sample != null );
     }
 }
